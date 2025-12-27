@@ -1,16 +1,61 @@
-# flutter_clock_app
 
-A new Flutter project.
+---
 
-## Getting Started
+#  Flutter Clock App
 
-This project is a starting point for a Flutter application.
+A simple and clean **Flutter application** that demonstrates building customizable clocks using core Flutter widgets only.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* 🧭 Drawer to switch between clock types
+* ⏱️ Analog Clock
+* 🔢 Digital Clock
+* 📝 Text Clock
+* 🎨 Change clock color
+* 📏 Adjust clock size
+
+---
+
+##  Purpose
+
+This project focuses on:
+
+* Practicing Flutter UI
+* Understanding widgets and layouts
+* Handling basic state using simple Flutter logic
+* Building customizable components without external dependencies
+
+---
+
+##  Tech Stack
+
+* **Flutter**
+* **Dart**
+* Core Widgets only
+
+---
+
+##  Notes
+
+* The app is intentionally kept simple
+* No backend or API integration
+* No Provider, Bloc, Riverpod, etc.
+
+---
+
+##  Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+##  License
+
+This project is open-source and available for learning and practice purposes.
+
+---
