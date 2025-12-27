@@ -103,8 +103,10 @@ class _ClockPageState extends State<ClockPage> {
       children: [
         Radio<String>(
           value: value,
+          // ignore: deprecated_member_use
           groupValue: selectedClockType,
           activeColor: AppColors.blueColor,
+          // ignore: deprecated_member_use
           onChanged: (val) => updateClockType(val!),
         ),
         Text(
