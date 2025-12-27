@@ -9,18 +9,21 @@ class RowWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Icon(iconData, color: AppColors.greyColor),
-        SizedBox(width: 20),
-        Text(
-          title,
-          style: AppStyles.textStyleBold.copyWith(
-            color: AppColors.blackColor,
-            fontSize: 25,
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      child: Row(
+        children: [
+          Icon(iconData, color: AppColors.greyColor),
+          SizedBox(width: 20),
+          Text(
+            title,
+            style: AppStyles.textStyleBold.copyWith(
+              color: AppColors.blackColor,
+              fontSize: 25,
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
